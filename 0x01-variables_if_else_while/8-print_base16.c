@@ -1,19 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  *main - Prints numbers between 0 to 9 and letters between a to f
  *
  *Return: Always 0 (Success);
 */
+
 int main(void)
 {
-	int i;
-	for (i = 48; i < 58; i++)
+	int d;
+	char low;
+
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(i);
+		putchar(d);
 	}
-	for (i = 97; i < 103; i++)
+	for (low = 'a'; low <= 'f'; low++)
 	{
-		putchar(i);
+		putchar(low);
 	}
 	putchar('\n');
 	return (0);
