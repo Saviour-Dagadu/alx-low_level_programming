@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  *main - Prints the alphabet
@@ -7,12 +9,17 @@
 */
 int main(void)
 {
-	char alp[52] = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-	int i;
-	for (i = 0; i < 52; i++)
+	char low;
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		putchar(alp[i]);
+		putchar(low);
 	}
-	putchar('n');
+	for (low = 'A'; low <= 'Z'; low++)
+	{
+		putchar(low);
+	}
+	putchar('\n');
+
 	return (0);
 }
