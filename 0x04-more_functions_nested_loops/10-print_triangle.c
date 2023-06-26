@@ -5,7 +5,7 @@
  * Decription: i Prints diagonals
  * @size: size of the traingle
  * Return: void
-*/
+ */
 
 void print_triangle(int size)
 {
