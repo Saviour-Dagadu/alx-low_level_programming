@@ -1,4 +1,5 @@
 #include "main.h"
+#include "string_functions.h"
 #include <stdio.h>
 
 /**
